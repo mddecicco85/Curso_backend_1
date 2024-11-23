@@ -1,0 +1,24 @@
+[
+  {
+    "id": 9417,
+    "title": "Adidas Air 2024",
+    "description": "Zapatillas deportivas",
+    "code": "95tfdfhll",
+    "price": 80000,
+    "status": false,
+    "stock": 100,
+    "category": "Deportes",
+    "thumbnails": []
+  },
+  {
+    "id": 8869,
+    "title": "Adidas Air 2024",
+    "description": "Zapatillas deportivas",
+    "code": "95t13840j",
+    "price": 80000,
+    "status": false,
+    "stock": 100,
+    "category": "Deportes",
+    "thumbnails": []
+  }
+]
