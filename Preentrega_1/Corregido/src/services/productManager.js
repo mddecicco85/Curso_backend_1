@@ -67,14 +67,14 @@ export default class productManager {
   }
 
   async mostrarProducto(id) {
-    let producto = this.products.filter((p) => p.id === id);
-    return producto;
-    /* let indice = products.findIndex((p) => p.id === id);
+    ///let producto = this.products.filter((p) => p.id === id);
+    //return producto;
+    let indice = this.products.findIndex((p) => p.id === id);
     if (indice === -1) {
       return undefined;
     } else {
-    return products[indice];
-    } */
+      return this.products[indice];
+    }
   }
 
   async agregarProducto(
