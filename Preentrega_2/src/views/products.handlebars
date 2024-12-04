@@ -1,0 +1,17 @@
+<div>
+  <h1>Productos</h1>
+</div>
+<div>
+  {{#each products}}
+    <p>Title: {{this.title}}</p>
+    <p>{{this.description}}</p>
+    <p>$ {{this.price}}</p>
+    <p>Stock: {{this.stock}}</p>
+    <!-- Hago esto para que el id del botón sea dinámico y no se borren todos al apretarlo.-->
+  {{/each}}
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<!-- Sin esto, el servidor no escucha. -->
+
+<script src="/js/index.js"></script>
+<!-- En index.js está el socket del cliente. -->

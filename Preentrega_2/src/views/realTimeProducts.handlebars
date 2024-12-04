@@ -1,0 +1,18 @@
+<h1>Productos</h1>
+<div id="productos">
+    {{!-- {{#each products}}
+    <div id="${{this.code}}">
+        <p>{{this.title}}</p><br>
+       <p>{{this.description}}</p><br>
+       <p>$ {{this.price}}</p><br>
+       <p>Stock:{{this.stock}}</p><br>
+       <button id="btn_{{data.code}}">Eliminar {{data.code}}</button></div>
+       </div>
+    {{/each}} --}}
+  <p id="product_list"></p>
+  <!-- product_list servirá para ir actualizando los productos que se vayan agregando y eliminando. -->
+</div>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
