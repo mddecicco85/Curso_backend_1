@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Adidas Air 2024",
+    "description": "Zapatillas deportivas",
+    "code": "95t13840j",
+    "price": 80000,
+    "status": false,
+    "stock": 100,
+    "category": "Deportes",
+    "thumbnails": []
+  },
+  {
+    "title": "Reebok Aero",
+    "description": "Remera deportiva",
+    "code": "afj03534",
+    "price": 20000,
+    "status": true,
+    "stock": 100,
+    "category": "Deportes",
+    "thumbnails": []
+  },
+  {
+    "title": "Puma black",
+    "description": "Buzo deportivo",
+    "code": "sfjiñ24923",
+    "price": 40000,
+    "status": true,
+    "stock": 300,
+    "category": "Deportes",
+    "thumbnails": []
+  },
+  {
+    "title": "Calza Nike",
+    "description": "Calza gimnasia",
+    "code": "f804fjfw",
+    "price": 25000,
+    "status": true,
+    "stock": 200,
+    "category": "Deportes",
+    "thumbnails": []
+  },
+  {
+    "title": "Botines Adidas",
+    "description": "Botines de rugby",
+    "code": "84t4nlfw",
+    "price": 55000,
+    "status": false,
+    "stock": 400,
+    "category": "Deportes",
+    "thumbnails": []
+  },
+  {
+    "title": "Camitesa Argentina",
+    "description": "Remera oficial de la selección",
+    "code": "580395uf",
+    "price": 125000,
+    "status": true,
+    "stock": 1000,
+    "category": "Deportes",
+    "thumbnails": []
+  },
+  {
+    "title": "Camiseta Argetina suplente",
+    "description": "Remera oficial de la selección",
+    "code": "204rjfs",
+    "price": 125000,
+    "status": true,
+    "stock": 1000,
+    "category": "Deportes",
+    "thumbnails": []
+  },
+  {
+    "title": "Botines Nike",
+    "description": "Botines de fútbol",
+    "code": "afh3452",
+    "price": 85000,
+    "status": false,
+    "stock": 500,
+    "category": "Deportes",
+    "thumbnails": []
+  },
+  {
+    "title": "Televisor Sony 50 UHD",
+    "description": "Televisor 50 pulgadas alta definición",
+    "code": "nfow8f44",
+    "price": 500000,
+    "status": false,
+    "stock": 200,
+    "category": "Electrodomésticos",
+    "thumbnails": []
+  },
+  {
+    "title": "Aspiradora Philips Ultra",
+    "description": "Aspiradora robot",
+    "code": "r4ofim09",
+    "price": 105000,
+    "stock": 100,
+    "category": "Electrodomésticos",
+    "thumbnails": []
+  },
+  {
+    "title": "Olla Essen 1000",
+    "description": "Olla de 26 cm ancho x 20 cm de alto",
+    "code": "fjw0944",
+    "price": 80000,
+    "stock": 200,
+    "category": "Menaje",
+    "thumbnails": []
+  },
+  {
+    "title": "Sartén Essen Pro",
+    "description": "Sartén de 26 cm",
+    "code": "cnw84f020",
+    "price": 90000,
+    "stock": 300,
+    "category": "Menaje",
+    "thumbnails": []
+  },
+  {
+    "title": "Microondas Aiwa 2000",
+    "description": "Horno microondas",
+    "code": "ca984te",
+    "price": 120000,
+    "status": false,
+    "stock": 200,
+    "category": "Electrodomésticos",
+    "thumbnails": []
+  },
+  {
+    "title": "Cafetera Volturno",
+    "description": "Cafetera a vapor",
+    "code": "ve0r9v4",
+    "price": 50000,
+    "stock": 400,
+    "category": "Menaje",
+    "thumbnails": []
+  }
+]

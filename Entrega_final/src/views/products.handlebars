@@ -1,0 +1,41 @@
+<div>
+  <h1>Productos</h1>
+</div>
+{{#if isValid}}
+  <div>
+    {{#each docs}}
+      <div>
+        <a href="http://localhost:8080/products/{{this._id}}">{{this.title}}</a> {{!-- Acá me dirige a la página del producto. --}}
+        {{!-- <p>{{this.title}}</p> --}}
+        <p>{{this.description}}</p>
+        <p>$ {{this.price}}</p>
+        <p>Stock: {{this.stock}}</p>
+        <button id="btn_{{this._id}}">Agregar al carrito</button>
+        <p>-------------------------</p>
+        <!-- Hago esto para que el id del botón sea dinámico y no se borren todos al apretarlo.-->
+      </div>
+    {{/each}}
+  </div>
+
+  <div>
+    {{#if hasPrevPage}}
+      <a href={{this.prevLink}}><< Anterior</a>
+    {{/if}}
+
+    &nbsp;
+    {{this.page}}
+    &nbsp;
+
+    {{#if hasNextPage}}
+      <a href={{this.nextLink}}>Siguiente >></a>
+    {{/if}}
+  </div>
+
+{{else}}
+  <h2>No hay productos que mostrar</h2>
+{{/if}}
+<script src="/socket.io/socket.io.js"></script>
+<!-- Sin esto, el servidor no escucha. -->
+
+<script src="/js/index.js"></script>
+<!-- En index.js está el socket del cliente. -->
