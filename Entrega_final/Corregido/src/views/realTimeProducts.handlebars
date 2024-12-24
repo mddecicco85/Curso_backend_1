@@ -1,0 +1,32 @@
+<h1>Productos</h1>
+<div id="productos">
+  <!-- productos servirá para ir actualizando los productos que se vayan agregando y eliminando. -->
+  {{#each products}}
+    <div id="{{this._id}}">
+      <p>{{this.title}}</p>
+      <p>{{this.description}}</p>
+      <p>$ {{this.price}}</p>
+      <p>Stock: {{this.stock}}</p>
+      <button id="btn_{{this._id}}">Eliminar</button>
+      <p>-------------------------</p>
+      <!-- Hago esto para que el id del botón sea dinámico y no se borren todos al apretarlo.-->
+    </div>
+  {{/each}}
+</div>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
+
+<script>
+  /*Escribo más lógica en forma de script.*/ /* Función para agregar eventos de
+  eliminación a los botones*/ const activarBotonesEliminar = () => {
+  /*Seleccionar todos los botones cuyos IDs comienzan con "btn_"*/ const
+  vectorBotones = document.querySelectorAll("button[id^='btn_']"); /*Crear el
+  evento de escucha para cada botón*/ vectorBotones.forEach((boton) => { let
+  boton_id = boton.id.replace("btn_", ""); /*Reemplaza "btn_" por una cadena
+  vacía para obtener el id real*/ boton.addEventListener("click", () => {
+  socket.emit("delete_product", { _id: boton_id }); }); }); }; /*Llamada a la
+  función para agregar eventos después de que el DOM se haya cargado*/
+  document.addEventListener("DOMContentLoaded", activarBotonesEliminar);
+</script>

@@ -1,0 +1,13 @@
+<div>
+  <h1>Productos en el carrito</h1>
+</div>
+
+<div>
+  {{#each productos}}
+    {{!-- <p>{{this.product.title}}</p> NO SE PUEDE ACCEDER A this.product --}}
+    {{! NO SE PUEDE HACER PORQUE HANDLEBARS TIENE BLOQUEADO EL ACCESO A LAS PROPIEDADES INTERNAS DEL VECTOR }}
+    <p>{{this}}</p>
+    <p>-------------------------</p>
+    <!-- Hago esto para que el id del botón sea dinámico y no se borren todos al apretarlo.-->
+  {{/each}}
+</div>

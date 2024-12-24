@@ -1,0 +1,24 @@
+[
+  {
+    "id": 8869,
+    "title": "Adidas Air 2024",
+    "description": "Zapatillas deportivas",
+    "code": "95t13840j",
+    "price": 80000,
+    "status": false,
+    "stock": 100,
+    "category": "Deportes",
+    "thumbnails": []
+  },
+  {
+    "id": 3469,
+    "title": "Reebok Aero",
+    "description": "Remera deportiva",
+    "code": "afj03534",
+    "price": 20000,
+    "status": true,
+    "stock": 100,
+    "category": "Deportes",
+    "thumbnails": []
+  }
+]
